@@ -141,17 +141,15 @@ export class Calculator extends React.Component {
                         </Form.Text>
                        </Col>
 
-                       <Col lg={3}>
+                       <Col lg={1}>
                         <Form.Label>Answer</Form.Label>
                         <Col>
                             <Button onClick={this.getAnswer}>=</Button>
                         </Col>
 
                        </Col>
-                   </Row>
 
-                   <Row>
-                       <Col lg={12}>
+                       <Col lg={2}>
                            <h2 className="d-flex justify-content-center mt-4">{this.state.answer}</h2>
                        </Col>
                    </Row>
